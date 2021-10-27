@@ -1,0 +1,46 @@
+*{
+    font-family: Tahoma;
+}
+
+body{
+    width: 50%; /* pourcentage par rapport à la taille de l'écran*/
+    margin: auto; /* gestion automatique des marges pour que le tableau soit centré */
+}
+
+table{
+    border: 4px solid rgb(255, 209, 228); /* épaisseur, trait normal et couleur */
+    border-collapse: collapse; /* Pour coller les border des cellules */
+    width: 100%; /* prend toute la largeur du body */
+}
+
+thead, tfoot{
+    background-color:#ccf5ff;
+    border: 2px solid rgb(255, 209, 228);
+}
+tbody{
+    border: 3px double rgb(255, 209, 228) ; /* solid dashed, dotted, double, ridge, groove */
+}
+
+th{
+    border: 1px dotted rgb(255, 209, 228);
+    padding: 4px;
+    background-color: mistyrose;
+}
+
+td{
+    font-size: 120%;
+    border: 1px dotted rosybrown;
+    text-align: center;
+}
+    
+tr td:first-child{ /* 1er td pour aligner le text à gauche de chaque rangée */
+    text-align: left;
+    background-color:rgb(184, 235, 226);
+}
+
+caption{
+    font-size: 30px;
+    color: rgb(255, 152, 203);
+    padding: 20px;
+    background-color: peachpuff;
+}
