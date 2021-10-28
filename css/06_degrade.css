@@ -1,0 +1,9 @@
+.contenu{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50%; /* arrondie les angles */
+    /* background: linear-gradient(to left, #b0f5ff,#ffc9e6); /* va de droite à gauche: rose à gauche et bleu à droite */
+    background: rgb(254,241,123);
+    background: linear-gradient(90deg, rgba(254,241,123,1) 0%, rgba(255,211,232,1) 16%, rgba(205,241,255,1) 48%, rgba(154,244,142,1) 100%);
+}

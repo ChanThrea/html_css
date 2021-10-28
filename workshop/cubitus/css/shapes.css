@@ -1,0 +1,39 @@
+body{
+    margin: 5; 
+}
+
+.carre{
+    height: 6vh;
+    width: 3vw; 
+    padding: 6vh;
+    background-color: rgb(46, 112, 49);
+    border: 2px;
+    margin: 0.5;
+}
+
+.carre2{
+    height: 6vh;
+    width: 3vw; 
+    padding: 6vh;
+    border: 2px double black;
+    margin: 0.5vh;
+    background-color: rgb(155, 240, 255);
+    float: left;
+    border-radius: 25px;
+}
+
+.carre3{
+    height: 6vh;
+    width: 3vw; 
+    padding: 6vh;
+    background-color: rgb(31, 83, 33);
+    border: 2px;
+    margin: 0.5;
+    float:left;
+    margin-top: 20vh;
+    border-radius: 100px;
+}
+
+.clear{
+    clear: both;
+}
