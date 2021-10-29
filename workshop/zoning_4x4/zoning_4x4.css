@@ -1,0 +1,74 @@
+body{
+    font-size: 25px;
+}
+
+#conteneur{
+    width: 60%;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(155, 243, 255);
+}
+
+header{
+    background-color: rgb(223, 139, 70);
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+nav{
+    background-color: rgb(92, 71, 61);
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin: 25px;
+    border: 10px;
+}
+
+footer{
+    background-color: rgb(184, 184, 184);
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p{
+    width: 24.5%;
+    height: 125px;
+    float: left;
+    text-align: center;
+    border: 1px solid white;
+    line-height: 130px;
+    font-size: 20px;
+}
+
+.a, .b, .c, .d{
+    width: 25%;
+    height: 120px;
+    background-color: rgb(255, 203, 160);
+    color: white;
+}
+
+.e, .f, .g, .h{
+    color: white;
+    background-color: rgb(117, 140, 175);
+    height: 120px;
+}
+
+.i, .j, .k, .l{
+    width: 25%;
+    background-color: rgb(55, 69, 94);
+    color: white;
+}
+
+.m, .n, .o, .p{
+    color: white;
+    background-color: rgb(255, 216, 164);
+}
